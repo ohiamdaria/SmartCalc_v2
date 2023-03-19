@@ -8,7 +8,7 @@ class Controller
 private:
     Model *model;
 public:
-    Controller(ExampleModel *m):model(m) {};
+    Controller(ExampleModel *m) : model(m) {};
     double calculate_usual(double a);
     double calculate_deposit(double a);
     double calculate_credit(double a);
